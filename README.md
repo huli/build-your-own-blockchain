@@ -1,7 +1,7 @@
 ### Tutorials and Notes to 'Blockchain A-Z - Learn how to build your first blockchain' (Udemy)
 ---
 
-*These are just my personal comments for later refreshing. I can highly recommend taking the course if you are interested in the topic and just starting out (https://www.udemy.com/build-your-blockchain-az/)*.
+*These are just my personal comments for later refreshing. I can recommend taking the course if you are interested in the topic and just starting out (https://www.udemy.com/build-your-blockchain-az/) - however if you have programming experience you will be able to fast forward over lots of stuff in the practical part.*
 
 ### Blockchain Intuition
 
