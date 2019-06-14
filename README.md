@@ -142,3 +142,17 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 
 #### Understanding Mining Difficulty
+
+![alt text](images/the_difficulty.png "The difficulty of mining")
+
+* The Mining Difficulty is measured in: current target / max target (initial target)
+* The difficulty is adjusted every 2016 blocks (2 weeks) to keep the average block time at 10 minute
+* Last block as of this writing is (#580675): 000000000000000000054fb67245b74d6e26713a6051b4a3bdc203b18439bf79
+    * 19 leading zeroes -> 16^(64-19) possibilities
+* First block had 8 leading zeroes -> 16^(64-8) possibilities
+* Current probability:  
+    <img width="500" src="images/probability.png"/>  
+* Current difficulty (current target/max target):
+    * 7,409,399,249,090.25
+* Classic banking uses interest rates for the same process
+
