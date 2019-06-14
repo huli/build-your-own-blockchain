@@ -1,7 +1,7 @@
 ### Tutorials and Notes to 'Blockchain A-Z - Learn how to build your first blockchain' (Udemy)
 ---
 
-*These are just my personal comments for later refreshing. I can recommend taking the course if you are interested in the topic and just starting out (https://www.udemy.com/build-your-blockchain-az/) - however if you have programming experience you will be able to fast forward over lots of stuff in the practical part.*
+*These are just my personal comments for later refreshing. I can highly recommend taking the course if you are interested in the topic and just starting out (https://www.udemy.com/build-your-blockchain-az/).*
 
 ### Blockchain Intuition
 
@@ -105,3 +105,40 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 *Try it out:*
 *https://tools.superdatascience.com/blockchain/coinbase*
 
+### Cryptocurrency Intuition
+
+#### What ist Bitcoin?
+
+* Bitcoin is not only a coin but a protocol
+* Developed by a person/team going by the name Satoshi Nakamoto in 2008
+* There are basically 3 layers in cryptocurrency
+* ICO's are about tokens and not coins (misleading term)
+
+![alt text](images/the_three_layers.png "The three layers of a cryptocurrency")
+*© SuperDataScience*
+
+
+#### Bitcoin's Monetary Policy
+
+* There are mainly two parts:
+    * The Halving: the amount of bitcoins per block is halving every 210k blocks (ca 4 years)
+    <img width="500" src="images/the_halving.png"/>   
+    *@ SuperDataScience*
+    * Block Frequency: the average block time is different for every currency. For Bitcoin the average block time is 10 minutes.  
+    <img width="500" src="images/block_frequency.png"/>   
+    *@ SuperDataScience*  
+* Because of rouding issues (decimal numbers) the number of BTCs per block will reach a dead end in 2140 (21 billion bitcoins)
+* Transaction fees are meant to replace block rewards
+
+*Overview of Coins and Tokens:*  
+*https://coinmarketcap.com/*
+
+*Lots of information about blockchain:*  
+*https://blockchain.info/*
+
+*Interesing read:*  
+*https://guerrilla-capitalism.com/articles/this-time-is-different-part-2-what-bitcoin-really-is/*
+
+
+
+#### Understanding Mining Difficulty
