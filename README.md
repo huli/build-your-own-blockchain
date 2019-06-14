@@ -152,7 +152,26 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 * First block had 8 leading zeroes -> 16^(64-8) possibilities
 * Current probability:  
     <img width="500" src="images/probability.png"/>  
-* Current difficulty (current target/max target):
+* Current difficulty (how much harder is the mining now than in the beginning):
     * 7,409,399,249,090.25
 * Classic banking uses interest rates for the same process
 
+
+#### Mining Pools
+
+![alt text](images/mining_pools.png "Mininig Pools")  
+*@ SuperDataScience*
+
+* To compete with large scale mining facilities miners can join mining pools
+* Within these mining pools the claculation of the nonce gets distributed (they are trying another range of numbers)
+* If a mining pool finds a golden nonce. The reward is distributed according to the mining power of the nodes
+* China is currently hosting the most mining pools
+* If the miners are viewed as a country they would rank 61st in world electricity consumption
+
+![alt text](images/biggest_mining_pools.png "The biggest mining pools")  
+
+*Mining pools:*  
+*https://www.buybitcoinworldwide.com/mining/pools/*
+
+*Interesing article on different views of bitcoins electricity consumption:*  
+*https://blog.bitcoin.org.hk/bitcoin-mining-and-energy-consumption-4526d4b56186*
