@@ -136,7 +136,7 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 *Lots of information about blockchain:*  
 *https://blockchain.info/*
 
-*Interesing read:*  
+*Interesting read:*  
 *https://guerrilla-capitalism.com/articles/this-time-is-different-part-2-what-bitcoin-really-is/*
 
 
@@ -175,3 +175,20 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 *Interesing article on different views of bitcoins electricity consumption:*  
 *https://blog.bitcoin.org.hk/bitcoin-mining-and-energy-consumption-4526d4b56186*
+
+
+#### Nonce Range
+
+* The nonce is an (unsigned) integer of 32bits and therefore has only 4 billion possible values
+* A modest miner calculates 100 million hashes per second (MH/s)
+* The probability of getting the nonce however is 2x10^-22
+* So the probability of ONE nonce in the range beeing the golden nonce is still only 10^-12
+* Conclusion: **One nonce range is not enough**
+* Solution: **The timestamp** in the block
+* Trough the timestamp the nonces are getting resetted every seconds and can be reused
+* This solves the problem for indiviudal miners
+* For mining pools however with capacities of 22 million trillion hashes/sec the problem still persists (the nonce range would be finished long before a second)
+
+
+![alt text](images/nonce_range.png "The nonce range")  
+*@ SuperDataScience*
