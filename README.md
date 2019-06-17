@@ -192,3 +192,17 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 ![alt text](images/nonce_range.png "The nonce range")  
 *@ SuperDataScience*
+
+
+#### How Miners Pick Transactions
+
+* The transactions are getting stored in the mempool
+* 2'000 tranactions fit in one block
+* If your transaction is too small, it can get stuck in the mempool and returned to you
+* The miners pick the highest transactions in the mempool
+* If the nonce range has reached its end end the timestamp is still the same, the smallest transaction gets replaced with the next smallest
+* With the new transaction the data of the block has changed and the nonce's can be reused
+
+![alt text](images/pick_transaction.png "How Miners are Picking Transactions")  
+*@ SuperDataScience*
+
