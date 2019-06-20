@@ -206,3 +206,21 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 ![alt text](images/pick_transaction.png "How Miners are Picking Transactions")  
 *@ SuperDataScience*
 
+*Overview article:*
+*https://www.coindesk.com/information/how-bitcoin-mining-works*
+
+
+### CPU's vs GPU's vs ASIC's
+
+![alt text](images/circuit_powers.png "Different circuit units")  
+*@ SuperDataScience*
+
+* ASICS (Application-Specific Integrated Circuit) are highly specialized processors which allow for physical instead of logical calculation of the sha256 hash
+* Ethereum (ethash) was designed that you cannot mine it with ASICs and nobody was able to design a circuit that can
+* Nobody does mine bitcoin with GPUs anymore because there are ASICs
+* Ethereum might switch from a Proof-Of-Work approach to a Proof-Of-Stake system which would render mining useless
+
+![alt text](images/asics.png "Small and big ASICs")  
+
+*Article which explains ethererums memory hardness (aka memory bound):*  
+*https://www.vijaypradeep.com/blog/2017-04-28-ethereums-memory-hardness-explained/*
