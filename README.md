@@ -224,3 +224,6 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 *Article which explains ethererums memory hardness (aka memory bound):*  
 *https://www.vijaypradeep.com/blog/2017-04-28-ethereums-memory-hardness-explained/*
+
+
+### How do Mempools work?
