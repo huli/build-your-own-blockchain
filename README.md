@@ -224,3 +224,46 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 *Article which explains ethererums memory hardness (aka memory bound):*  
 *https://www.vijaypradeep.com/blog/2017-04-28-ethereums-memory-hardness-explained/*
+
+
+### How do Mempools work
+
+* Mempools contain up to 8k transactions (depending on their size)
+* Every node has its own memepool
+* Each node has its own rendition of the pending transactions (depending on RAM size and time)
+* As soon as a block is mined, the containing transactions are removed from the memepool
+* This change is then propagated by the network
+
+![alt text](images/memepools.png "How memepools work")  
+*@ SuperDataScience*
+
+*Additional read for memepools:*  
+*https://blog.kaiko.com/an-in-depth-guide-into-how-the-mempool-works-c758b781c608*
+
+*Life list of unconfirmed transactions:*  
+*https://www.blockchain.com/btc/unconfirmed-transactions*
+
+### Orphaned Blocks
+
+* The golden rule: the longer chain wins
+* Wait until your transaction is not the foremost block anymore (it could be rejected)
+* Rule of thumb: wait for 6 confirmations
+
+
+*See last orphaned block from bitcoin:*  
+*https://www.blockchain.com/de/btc/orphaned-blocks*
+
+### The 51% Attack
+
+* An attacker succeedes in controlling +50% of the hashing power of the complete network
+* He then separates his network from the rest of the network
+* He will then have the chance to mine more blocks 
+* After some blocks he can reconnect with the network and win with his longer chain over the other chain
+* Knowing that he will win later, he can make transactions in the weaker network which will later be rejected
+
+![alt text](images/51_attack.png "The 51% attack")  
+*@ SuperDataScience*
+
+*Interesting article on the 51% attack:*  
+*(Don't miss the comments)*  
+*https://blog.sia.tech/choosing-asics-for-sia-b318505b5b51*
