@@ -278,3 +278,12 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 ![alt text](images/utxos.png "UTXO's and transactions")  
 *@ SuperDataScience*
+
+#### Where do Transaction Fees come from?
+
+* The remaining BTC amount in a transaction becomes the transaction fee
+* The fee is immediately becoming a UTXO for the miner
+
+![alt text](images/transaction_fees.png "Transaction fees")  
+*@ SuperDataScience*
+
