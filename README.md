@@ -266,3 +266,15 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 *Interesting article on the 51% attack:*  
 *(Don't miss the comments)*  
 *https://blog.sia.tech/choosing-asics-for-sia-b318505b5b51*
+
+
+### Cryptocurrency Transaction Intuition
+
+#### Transactions and UTXO's
+
+* UTXO's are Unspent Transaction Outputs
+* There is not really a balance in a wallet. Instead the amount left is represented through the UTXO's
+* An UTXO is a transaction that has been feed into another transaction
+
+![alt text](images/utxos.png "UTXO's and transactions")  
+*@ SuperDataScience*
