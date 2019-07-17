@@ -274,7 +274,7 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 
 * UTXO's are Unspent Transaction Outputs
 * There is not really a balance in a wallet. Instead the amount left is represented through the UTXO's
-* An UTXO is a transaction that has been feed into another transaction
+* An UTXO is a transaction that has not been feed into another transaction
 
 ![alt text](images/utxos.png "UTXO's and transactions")  
 *@ SuperDataScience*
@@ -287,3 +287,24 @@ As decimal number: 4829104444784778721683568887513822166950312323552148281885772
 ![alt text](images/transaction_fees.png "Transaction fees")  
 *@ SuperDataScience*
 
+#### How Wallets work
+
+* A wallet has no actual balance
+* The balance simply is all transactions to you that are not yet spent (that are UTXO)
+
+
+![alt text](images/wallet.png "How wallets work")  
+*@ SuperDataScience*
+
+
+#### Signatures: Private & Public Keys
+
+* Every blockchain user has a private and a public key
+* With the private key every transaction gets added a signature
+* Only the private key can generate this signature
+* With the public key miners can verify that the signature has been generated with the according private key and indeed is authorized
+
+![alt text](images/signatures.png "Public & Private Keys")  
+*@ SuperDataScience*
+ 
+ 
